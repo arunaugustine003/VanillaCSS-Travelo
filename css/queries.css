@@ -1,0 +1,284 @@
+/*
+BIG TABLETS WITH SCREEN SIZE RANGING UPTO 1025px
+*/
+@media only screen and (max-width: 1025px) {
+  /***************************************GENERAL SECTION & UTILITIES*****************************************************/
+  body {
+    padding: 0px;
+    color: black;
+    /* font-family: 28px/1.4, "Montserrat", sans-serif; */
+    font-family: 14px/1.4, "Roboto", sans-serif;
+  }
+  .row {
+    margin: 0 auto;
+    max-width: 1025px;
+    padding: 0 24px;
+  }
+  .h-100 {
+    height: 100%;
+  }
+
+  .reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  /***************************************EXPLORE NOW SECTION*****************************************************/
+
+  .s-explore-now__search {
+    width: 140%;
+    margin-top: 30px;
+    margin-left: -30%;
+  }
+  .search__dest {
+    margin-left: 25%;
+  }
+  .s-explore-now-btn-div {
+    margin-left: -45%;
+  }
+  /* 
+  .s-explore-now__search__label {
+    opacity: 1;
+    color: #151515;
+    font-size: 20px;
+    text-align: left;
+  }
+  .s-explore-now__search__input input {
+    border: 1px solid #fff;
+  }
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .search-main-div {
+    font-size: 20px;
+    color: #151515;
+    font-weight: 600;
+    opacity: 0.7196078431372549;
+    background-color: #ffffff;
+    padding: 10px 5px;
+    border-radius: 15px;
+    margin-top: -20px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .explore-btn {
+    color: white;
+    background-color: #4468e2;
+    border-radius: 10px;
+    border-color: #4468e2;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .explore-btn:hover {
+    color: white;
+    background-color: #1f46c7;
+  } */
+  /***************************************FEATURES SECTION*****************************************************/
+
+  .s-features__inner {
+    margin: 0 auto;
+    max-width: 1025px;
+    padding: 0 24px;
+  }
+  /* main div */
+  .s-features__content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* selecting children inside main div */
+  .s-features__content > * {
+    flex: 1 1 15%;
+  }
+
+  .s-features__item {
+    padding: 20px 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    /* width: 100%; */
+  }
+
+  /***************************************DESTINATION SECTION*****************************************************/
+  .s-destination--main-content-items:nth-child(3),
+  .s-destination__item__sub--list:nth-child(3),
+  .s-destination__item__sub--list:nth-child(4) {
+    display: none;
+  }
+
+  /* .s-destination__inner {
+    margin: 0 auto;
+    max-width: 1025px;
+    padding: 0 24px;
+  } */
+  .s-destination--main-content-items {
+    width: 50%;
+    height: auto;
+    padding-right: 3px;
+  }
+  .s-destination--main-content-items:nth-child(1) {
+    padding-right: 30px;
+  }
+  .s-destination--main-content-utilities {
+    width: 110%;
+  }
+  .s-destination--main-content-trip-details {
+    width: 110%;
+  }
+  .s-destination--main-content-utilities--fare h2 {
+    margin-left: 130px;
+  }
+  .s-destination--main-content-trip-details h3:last-child {
+    margin-left: 120px;
+  }
+  .ext-len h3:last-child {
+    margin-left: 75px;
+  }
+  /***************************************BLOGS SECTION*****************************************************/
+  /* main div */
+  /* .box {
+    display: flex;
+    flex-wrap: wrap;
+  } */
+  /* selecting children inside main div */
+  /* .box > * {
+    flex: 1 1 30%;
+  } */
+  .s-blogs {
+    margin-top: 178px;
+  }
+
+  .s-blogs__inner {
+    margin: 0 auto;
+    max-width: 1025px;
+    padding: 0 24px;
+  }
+  .s-blogs__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .s-blogs__images > * {
+    flex: 1 1 50%;
+  }
+  .s-blogs__img1 {
+    height: 278px;
+    border-radius: 3%;
+  }
+  .s-blogs__img1::after {
+    margin-top: -178px;
+    margin-left: -25px;
+    border-radius: 3%;
+  }
+  .s-blogs__img1 h1 {
+    color: #ffffff;
+    padding-top: 60px;
+    padding-left: 90px;
+    font-size: 50px;
+  }
+  .s-blogs__img2 {
+    height: 278px;
+    border-radius: 3%;
+    margin-left: -25px;
+  }
+  .s-blogs__img2::after {
+    margin-top: -85px;
+    margin-left: -25px;
+    border-radius: 3%;
+  }
+  .s-blogs__img2 h1 {
+    color: #ffffff;
+    padding-top: 60px;
+    padding-left: 90px;
+    font-size: 50px;
+  }
+  .span_female_travelers {
+    display: block;
+    margin-left: 15%;
+    margin-top: -10%;
+  }
+  .s-blogs__img3 {
+    height: 278px;
+    border-radius: 3%;
+    margin-left: -25px;
+  }
+  .s-blogs__img3::after {
+    margin-top: -78px;
+    margin-left: -25px;
+    border-radius: 3%;
+  }
+  .s-blogs__img3 h1 {
+    color: #ffffff;
+    padding-top: 60px;
+    padding-left: 90px;
+    font-size: 50px;
+  }
+  /***************************************FOOTER SECTION*****************************************************/
+  .main-footer {
+    background-color: #e1e8f8;
+    margin-top: 110px;
+    margin-left: 20px;
+    height: 178px;
+    width: 97%;
+    border-radius: 10px;
+    padding: 0px 0px;
+  }
+  .main-footer__inner {
+    margin: 0 auto;
+    max-width: 1025px;
+    padding: 0 24px;
+  }
+  .main-footer__text {
+    font-size: 22px;
+  }
+  .main-footer__text p {
+    margin-top: 80px;
+    margin-left: 20px;
+    color: #595959;
+  }
+  .main-footer__inner {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-footer__list-div {
+    margin-left: 50px;
+  }
+  .main-footer--list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+  }
+  .main-footer--item {
+    list-style: none;
+  }
+  .main-footer--item a {
+    color: #595959;
+  }
+  .main-footer--item a:hover {
+    color: black;
+  }
+
+  .main-footer--url {
+    text-decoration: none;
+    color: red;
+    font-size: 24px;
+    padding: 0px 20px;
+  }
+  .main-footer__social-icons {
+    margin-left: 10px;
+    margin-top: 75px;
+  }
+  .main-footer__social-icons i {
+    color: black;
+    font-size: 200%;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}
